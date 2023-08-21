@@ -1,8 +1,4 @@
 export interface ICannonProps {
-  /**
-   * Container size in rem
-   */
-  containerSize: number;
   turretColor?: string;
   barrelColor?: string;
   /**

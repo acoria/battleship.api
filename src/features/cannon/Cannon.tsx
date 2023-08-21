@@ -8,7 +8,6 @@ export const Cannon: React.FC<ICannonProps> = (props) => {
       className={styles.cannon}
       style={
         {
-          "--cannonContainerSize": `${props.containerSize}rem`,
           "--cannonTurretColor": `${props.turretColor ?? "black"}`,
           "--cannonBarrelColor": `${props.barrelColor ?? "black"}`,
           "--cannonAimAngle": `${props.aimAngle ?? 270}deg`,

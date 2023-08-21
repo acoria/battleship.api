@@ -1,0 +1,9 @@
+- ship elements
+    - isBow/default
+    - direction(left, right, up, down)
+    - color
+    - children e.g. cannons
+    - markAsHit (to change its view)
+    - isHit
+
+- create ship from elements e.g. aircraft carrier
